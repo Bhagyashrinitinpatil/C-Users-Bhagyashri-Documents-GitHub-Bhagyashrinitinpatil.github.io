@@ -1,0 +1,338 @@
+<html>
+
+ <head>
+       <title> Personal Information </title>
+
+<style> 
+
+
+
+
+div {
+  background-color: red;
+  opacity: 1;
+  filter: Alpha(opacity=50); /* IE8 and earlier */
+}
+
+td {
+  text-align: left;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+
+
+   </head>
+   
+    <body bgcolor="white">
+      
+
+ <form name="Registration">
+ 
+<img src="self.jpg" style="width:120px;float:right;border:5px groove gold"</p>
+
+
+<center>
+<h1><marquee bgcolor="LightSeaGreen"><b>Personal Information</b></marquee> </h1>
+
+     
+ <table style="width:100%">
+
+    <tr>
+
+         <td><li>Student Name:</li></td>
+ 
+        <td><input type="text" value="Bhagyashri Nitin Patil"  name="uid" size="60"></td>
+
+         </tr>
+
+
+<tr>
+<td><li>College Name:</td></li>
+<td>
+
+<select name="cn">
+<option selected="" value="(please select college name...)"></option>
+<option value="cn1" selected="true">N.Y.S.S Datta Meghe College of Engineering,Navi Mumbai</option>
+<option value="cn2">VJTI</option>
+<option value ="cn3">College of Engineering,Pune</option>
+<option value ="cn4">Pune Institute of Technology,Pune</option>
+<option value ="cn5">D.Y.Patil</option>
+
+
+ </td> 
+  </tr>
+  
+  <tr>
+<td><li>Branch:</td></li>
+<td>
+
+<select name="b">
+<option selected="" value="Default">(please select Branch...)</option>
+<option value="b1" >Computer Technology</option>
+<option value="b2" >Electronic and Communication</option>
+<option value ="b3" selected="true">Information Technology</option>
+<option value ="b4">Civil</option>
+<option value ="b5">Mechanical</option>
+
+
+ </td> 
+ </tr>
+ 
+  
+     <tr>
+
+     <td><li>Age:</li></td>
+ 
+    <td><input type="text" name="age" value="18" size="52"</td>
+   
+     </tr>
+
+        <tr>
+           
+ <td><li>Nationality</li></td>
+           
+ <td><input type="text" name="nation" value="India" size="52"</td></tr>
+         
+</tr>
+
+<td><li>Address</li></td>
+           
+ <td><textarea placeholder="Airoli,Sector 2,GoodHouse keeping Society Rowhouse:12 (Meenakshi Classes)" rows="4" cols="42" ></textarea></td></tr>
+       
+
+</tr>
+
+<tr>
+
+<tr>
+          
+<td><li>Gender:</td></li>
+        
+ <td>
+ 
+<input type="radio" name="g1" value="cc"  />Male 
+
+<input type="radio" name="g2" value="dc" checked  />Female
+
+
+        
+</td>
+</tr>
+
+
+<td><li>Blood Group:</li></td>
+        
+ <td>
+ 
+<input type="radio" name="" value="A" />A <br />
+
+<input type="radio" name="" value="" checked />B <br /> 
+
+<input type="radio" name="" value="">AB<br/>
+
+<input type="radio" name="" value="">O<br/>
+        
+</td>
+          
+
+
+<tr>
+         
+  <td><li>Date of Birth:</li></td>
+         
+<td><input type="text" value="18/06/2000" name=""</td>
+</tr> 
+  
+<tr>
+<td><li>Email ID:</li></td>
+      
+   <td><input type="text" value="bhagyashri.patil.1862@gmail.com" name="id" size="52"/></td>
+
+         </tr> 
+		 
+		 <tr>
+<td><li>Fax Number:</li></td>
+      
+   <td><input type="number" value="240004543" name="mno" size="52"/></td>
+
+         </tr> 
+
+<tr>
+<td><li>Phone Number:</li></td>
+      
+   <td><input type="number"  value="9881116958" name="pno" size="52"/></td>
+
+         </tr> 
+<hr>
+           
+  
+         
+</table>  
+<hr>
+<hr>
+<center>
+<h1><marquee bgcolor="LightSeaGreen"><b>Qualification Details</b></marquee> </h1>
+
+<table width="80%" border="2" align="center" Cellspacing="10" cellpading="10">
+
+
+<tr>
+<th> Examination</th>
+<th>Marks Obtained</th>
+<th> Marks Out of</th>
+<th> Percentage</th>
+</tr>
+
+<tr>
+<td> Diploma Final Year Aggregate :</td>
+<td>1210</td>
+<td> 1500 </td>
+<td> 80.67 </td>
+</tr>
+
+<tr>
+<td>10th/S.S.C Aggregate :</td>
+<td>455</td>
+<td> 500 </td>
+<td> 91.00</td>
+</tr>
+
+<tr>
+<td> 10th/S.S.C Mathematics : </td>
+<td>97 </td>
+<td> 100 </td>
+<td>97.00</td>
+</td>
+</tr>
+
+<tr>
+<td> 10th/S.S.C Science :</td>
+<td>95 </td>
+<td> 100</td>
+<td>95.00.00</td>
+
+</td>
+</tr>
+
+<tr>
+<td> 10th/S.S.C English : </td>
+<td>78 </td>
+<td> 100 </td>
+<td>78.00</td>
+
+</td>
+</tr>
+
+</table>
+<br>
+<br>
+
+<div style="background-color:navy;color:white;padding:20px;">
+  
+
+ <dialog open><p><b><tr>HOBBY </b>:Collect different types of stone,Writing,Decoration</dialog></p>
+<p><b>CIRCULAR ACTIVITIES </b>: Panting & Programming</p></dialog>
+<br>
+<br>
+<br>
+<br><br>
+<br><br>
+<br>
+
+
+<div style="background-color:White;color:white;padding:20px;">
+
+
+<table width="80%" border="2" align="center" Cellspacing="8" cellpading="8" border="0px" >
+ 
+    <caption><b>SKILLS</b></caption
+   
+ 
+  <tr>
+    <td>Lesson Planning</td>
+    <td>Communication Skill</td>
+  </tr>
+  <tr>
+        <td>Software Maintainance</td>
+    <td>Coding of Java,PHP,ASP .Net </td>
+  </tr>
+  
+  
+  <tr>
+    <td>Database Managment</td>
+    <td>Software Testing</td>
+  </tr>
+  
+  
+</table>
+
+
+
+</div>
+<br>
+<br>
+<br>
+<br>
+<div style="background-color:yellow;color:white;padding:20px;">
+<table width="80%" border="2" align="center" Cellspacing="8" cellpading="8" border="0px" >
+ 
+    <caption><b>CERTIFICATIONS</b></caption>
+  
+ 
+  <tr>
+    <td>CCSP Network Security</td>
+    <td>Certifised Information System Security Professionals</td>
+  </tr>
+ 
+ </div>
+
+   <p> <a href="Favourite.html"><u>Click Me<u></a></p>
+   
+
+
+</frameset>
+  
+</table>
+
+
+
+
+
+
+    
+</body>
+
+</html>
